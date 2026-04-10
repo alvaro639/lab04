@@ -38,11 +38,10 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     Text(
-        text = "Hello $ desde MAIN!!!!!!",
+        text = "Hello $name desde MAIN!!!!!!",
         modifier = modifier
     )
 }
-
 @Composable
 fun MyButton() {
     Button(onClick = {}) {
