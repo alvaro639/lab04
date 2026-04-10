@@ -52,7 +52,7 @@ fun MyButton() {
 
 @Composable
 fun InfoText() {
-    Text("Curso de móviles ")
+    Text("Curso de móvilesss  ")
 }
 
 @Preview(showBackground = true)
