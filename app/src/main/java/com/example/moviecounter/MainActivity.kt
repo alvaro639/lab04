@@ -38,7 +38,7 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     Text(
-        text = "Hello $name!!!!!!",
+        text = "Hello $ desde MAIN!!!!!!",
         modifier = modifier
     )
 }
@@ -52,7 +52,7 @@ fun MyButton() {
 
 @Composable
 fun InfoText() {
-    Text("Curso de móviles actualizado  ")
+    Text("Curso de movil reciente 1  ")
 }
 
 @Preview(showBackground = true)
